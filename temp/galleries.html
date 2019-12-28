@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>画廊</title>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- CSS FILES -->
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../lib/css/featherlight.css" rel="stylesheet" type="text/css">
+    <link href="../lib/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- READING POSITION INDICATOR -->
+    <progress value="0" id="eskimo-progress-bar">
+        <span class="eskimo-progress-container">
+            <span class="eskimo-progress-bar"></span>
+        </span>
+    </progress>
+    <!-- SITE WRAPPER -->
+    <div id="eskimo-site-wrapper">
+        <!-- MAIN CONTAINER -->
+        <main id="eskimo-main-container">
+            <div class="container">
+                <!-- SIDEBAR -->
+                <div id="eskimo-sidebar">
+                    <div id="eskimo-sidebar-wrapper" class="d-flex align-items-start flex-column h-100 w-100">
+                        <!-- LOGO -->
+                        <div id="eskimo-logo-cell" class="w-100">
+                            <a class="eskimo-logo-link" href="index.html">
+                                <img src="../lib/images/logo.png" class="eskimo-logo" alt="eskimo" />
+                            </a>
+                        </div>
+                        <!-- MENU CONTAINER -->
+                        <div id="eskimo-sidebar-cell" class="w-100">
+                            <!-- MOBILE MENU BUTTON -->
+                            <div id="eskimo-menu-toggle">菜单</div>
+                            <!-- MENU -->
+                            <nav id="eskimo-main-menu" class="menu-main-menu-container">
+                                <ul class="eskimo-menu-ul">
+                                    <li><a href="index.html">首页</a>
+                                    </li>
+                                    <li><a href="#">用户</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../pages/login/register.html">注册</a></li>
+                                            <li><a href="../pages/login/login.html">登录</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">博客</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">界面1</a></li>
+                                            <li><a href="single-post.html">热门文章</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="galleries.html">无聊图</a></li>\
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- SOCIAL MEDIA ICONS -->
+                        <div id="eskimo-social-cell" class="mt-auto w-100">
+                            <div id="eskimo-social-inner">
+                                <ul class="eskimo-social-icons">
+                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOP ICONS -->
+                <ul class="eskimo-top-icons">
+                    <li id="eskimo-panel-icon">
+                        <a href="#eskimo-panel" class="eskimo-panel-open"><i class="fa fa-bars"></i></a>
+                    </li>
+                    <li id="eskimo-search-icon">
+                        <a id="eskimo-open-search" href="#"><i class="fa fa-search"></i></a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+                <!-- PAGE TITLE -->
+                <div class="eskimo-page-title">
+                    <h1><span>Galleries</span></h1>
+                    <p class="eskimo-page-subtitle">You can create beautiful responsive galleries in minutes...</p>
+                </div>
+                <h2>Two Column</h2>
+                <p>Dolore commodo ea excepteur, do irure praetermissum aut enim proident aut laboris, an lorem irure irure commodo. Iudicem culpa litteris ad enim eu mandaremus. Nostrud quis ne excepteur praetermissum.</p>
+                <!-- IMAGE GALLERY -->
+                <div class="eskimo-masonry-grid eskimo-gallery">
+                    <div class="eskimo-two-columns" data-columns>
+                        <!-- GALLERY ITEM 1 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog11.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog11-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 2 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog7.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog7-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- DIVIDER -->
+                <hr />
+                <h2>Three Column</h2>
+                <p>Possumus e aute sed se litteris in aliquip, a tamen quem qui pariatur ex pariatur nam nulla possumus, magna do nostrud non quid qui cernantur eram aliqua e illum labore proident consequat.</p>
+                <!-- IMAGE GALLERY -->
+                <div class="eskimo-masonry-grid eskimo-gallery">
+                    <div class="eskimo-three-columns" data-columns>
+                        <!-- GALLERY ITEM 1 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog18.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog18-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 2 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog1.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog1-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 3 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 4 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog2.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog2-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 5 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog14.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog14-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 6 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog3.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog3-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- DIVIDER -->
+                <hr />
+                <h2>Four Column</h2>
+                <p>Possumus e aute sed se litteris in aliquip, a tamen quem qui pariatur ex pariatur nam nulla possumus, magna do nostrud non quid qui cernantur eram aliqua e illum labore proident consequat.</p>
+                <!-- IMAGE GALLERY -->
+                <div class="eskimo-masonry-grid eskimo-gallery">
+                    <div class="eskimo-four-columns" data-columns>
+                        <!-- GALLERY ITEM 1 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog4-1.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog4-1-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 2 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog17.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog17-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 3 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog13.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog13-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 4 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog15.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog15-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 5 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog12.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog12-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 6 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog6.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog6-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 7 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog2.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog2-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- GALLERY ITEM 8 -->
+                        <div class="eskimo-gallery-item">
+                            <a href="#" data-featherlight="uploads/2019/12/blog19.jpg" class="eskimo-lightbox">
+                                <img src="../lib/uploads/2019/12/blog19-900x600.jpg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="no-margin">Possumus e aute sed se litteris in aliquip, a tamen quem qui pariatur ex pariatur nam nulla possumus, magna do nostrud non quid qui cernantur eram aliqua e illum labore proident consequat.</p>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer id="eskimo-footer">
+            <div class="container">
+
+                <!-- CREDITS -->
+                <div class="eskimo-footer-credits">
+                    <p>
+                        Made by <a href="https://github.com/Neptune1228" target="_blank">Neptune </a> & <a href="https://github.com/Xpectuer" target="_blank">Alex</a>
+                        <!--sitting URL-->
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- GO TO TOP BUTTON -->
+    <a id="eskimo-gototop" href="#"><i class="fa fa-chevron-up"></i></a>
+    <!-- SLIDE PANEL OVERLAY -->
+    <div id="eskimo-overlay"></div>
+    <!-- 边栏 -->
+    <div id="eskimo-panels">
+        <aside id="eskimo-panel" class="eskimo-panel">
+            <div class="eskimo-panel-inner">
+                <!-- CLOSE SLIDE PANEL BUTTON -->
+                <a href="#" class="eskimo-panel-close"><i class="fa fa-times"></i></a>
+                <!-- AUTHOR BOX -->
+                <div class="eskimo-author-box eskimo-widget">
+                    <div class="eskimo-author-img">
+                        <img src="../lib/uploads/2019/12/img9.jpg" alt="USER" id="side_profile_image"/>
+                    </div>
+                    <h3><span id="side_username">未登录</span></h3>
+                    <p class="eskimo-author-subtitle" id="side_authority"></p>
+                    <p class="eskimo-author-description" id="side_attachments"></p>
+                    <div class="eskimo-author-box-btn" id="side_management" style="display: none">
+                        <a class="btn btn-default" href="services/admin.php">管理</a>
+                    </div>
+                    <div class="eskimo-author-box-btn" id="side_about" style="display:block;">
+                        <a class="btn btn-default" href="services/about.php">个人主页</a>
+                    </div>
+                    <div class="eskimo-author-box-btn" id="side_login" style="display:block;">
+                        <a class="btn btn-default" href="services/recordUrl.php">登录</a>
+                    </div>
+                    <div class="eskimo-author-box-btn" id="side_logout" style="display: none">
+                        <a class="btn btn-default" href="" style="background-color: orangered;border: orangered">登出</a>
+                        <!--                   按钮 能不能做成红色背景？？-->
+                    </div>
+                </div>
+                <!-- RECENT POSTS -->
+                <div class="eskimo-recent-entries eskimo-widget" id="recent-post" style="display: none">
+                    <h5 class="eskimo-title-with-border"><span>最近发言</span></h5>
+                    <ul id="side_dialogs">
+                        <!--                    <li>-->
+                        <!--                        <a href="single-post.html">杰哥不要啊！</a>-->
+                        <!--                        <span class="post-date">Dec 28, 2019</span>-->
+                        <!--                    </li>-->
+                        <!--                    <li>-->
+                        <!--                        <a href="single-post.html">最近有在健身哦</a>-->
+                        <!--                        <span class="post-date">Dec 27, 2018</span>-->
+                        <!--                    </li>-->
+                        <!--                    <li>-->
+                        <!--                        <a href="single-post.html">15 Of The World's Best Carnivals</a>-->
+                        <!--                        <span class="post-date">Dec 25, 2018</span>-->
+                        <!--                    </li>-->
+                    </ul>
+                </div>
+                <!-- CATEGORIES -->
+                <!--            <div class="eskimo-categories eskimo-widget">-->
+                <!--                <h5 class="eskimo-title-with-border"><span>Categories</span></h5>-->
+                <!--                <ul>-->
+                <!--                    <li>-->
+                <!--                        <a href="category.html" title="The best restaurants, cafes, bars and shops in town.">Food &amp; Drink</a> <span class="badge badge-pill badge-default">5</span>-->
+                <!--                    </li>-->
+                <!--                    <li>-->
+                <!--                        <a href="category.html" title="An up-to-date, personal urban guide.">Lifestyle</a> <span class="badge badge-pill badge-default">5</span>-->
+                <!--                    </li>-->
+                <!--                    <li>-->
+                <!--                        <a href="category.html" title="Latest technology news and updates.">Technology</a> <span class="badge badge-pill badge-default">4</span>-->
+                <!--                    </li>-->
+                <!--                    <li>-->
+                <!--                        <a href="category.html" title="Travel advice, information and inspiration.">Travel</a> <span class="badge badge-pill badge-default">5</span>-->
+                <!--                    </li>-->
+                <!--                    <li>-->
+                <!--                        <a href="category.html" title="The latest news about movies and TV shows.">TV &amp; Movies</a> <span class="badge badge-pill badge-default">4</span>-->
+                <!--                    </li>-->
+                <!--                </ul>-->
+                <!--            </div>-->
+                <!-- TAGS -->
+                <!--            <div class="eskimo-widget">-->
+                <!--                <h5 class="eskimo-title-with-border"><span>Tags</span></h5>-->
+                <!--                <div class="eskimo-tag-cloud">-->
+                <!--                    <a href="category.html">aute<span>7</span></a>-->
+                <!--                    <a href="category.html">enim<span>7</span></a>-->
+                <!--                    <a href="category.html">commodo<span>7</span></a>-->
+                <!--                    <a href="category.html">voluptatibus<span>7</span></a>-->
+                <!--                    <a href="category.html">culpa<span>7</span></a>-->
+                <!--                    <a href="category.html">offendit<span>7</span></a>-->
+                <!--                    <a href="category.html">magna<span>7</span></a>-->
+                <!--                    <a href="category.html">quorum<span>7</span></a>-->
+                <!--                    <a href="category.html">mandaremus<span>7</span></a>-->
+                <!--                    <a href="category.html">ingeniis<span>7</span></a>-->
+                <!--                    <a href="category.html">tempor<span>7</span></a>-->
+                <!--                    <a href="category.html">summis<span>7</span></a>-->
+                <!--                    <a href="category.html">consequat<span>6</span></a>-->
+                <!--                    <a href="category.html">iudicem<span>6</span></a>-->
+                <!--                    <a href="category.html">expetendis<span>6</span></a>-->
+                <!--                    <a href="category.html">deserunt<span>6</span></a>-->
+                <!--                </div>-->
+                <!--            </div>-->
+            </div>
+        </aside>
+    </div>
+
+    <!-- 边栏-->
+    <!-- FULLSCREEN SEARCH -->
+    <div id="eskimo-fullscreen-search">
+        <div id="eskimo-fullscreen-search-content">
+            <a href="#" id="eskimo-close-search"><i class="fa fa-times"></i></a>
+            <form role="search" method="get" action="search.html" class="eskimo-lg-form">
+                <div class="input-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Enter a keyword..." name="s" />
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- JS FILES -->
+    <script src="../lib/js/jquery/jquery.min.js"></script>
+    <script src="../lib/js/bootstrap.min.js"></script>
+    <script src="../lib/js/salvattore.min.js"></script>
+    <script src="../lib/js/panel.js"></script>
+    <script src="../lib/js/reading-position-indicator.js"></script>
+    <script src="../lib/js/rrssb.min.js"></script>
+    <script src="../lib/js/featherlight.js"></script>
+    <script src="../lib/js/custom.js"></script>
+    <script src="../lib/js/sidePanel.js"></script>
+</body>
+
+</html>

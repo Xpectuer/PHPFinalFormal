@@ -1,0 +1,432 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>首页</title>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- CSS FILES -->
+    <link href="../lib/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../lib/css/slick.css" rel="stylesheet" type="text/css">
+    <link href="../lib/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- READING POSITION INDICATOR -->
+    <progress value="0" id="eskimo-progress-bar">
+        <span class="eskimo-progress-container">
+            <span class="eskimo-progress-bar"></span>
+        </span>
+    </progress>
+    <!-- SITE WRAPPER -->
+    <div id="eskimo-site-wrapper">
+        <!-- MAIN CONTAINER -->
+        <main id="eskimo-main-container">
+            <s class="container">
+                <!-- SIDEBAR -->
+                <div id="eskimo-sidebar">
+                    <div id="eskimo-sidebar-wrapper" class="d-flex align-items-start flex-column h-100 w-100">
+                        <!-- LOGO -->
+                        <div id="eskimo-logo-cell" class="w-100">
+                            <a class="eskimo-logo-link" href="index.html">
+                                <img src="../lib/images/logo.png" class="eskimo-logo" alt="eskimo" />
+                            </a>
+                        </div>
+                        <!-- MENU CONTAINER -->
+                        <div id="eskimo-sidebar-cell" class="w-100">
+                            <!-- MOBILE MENU BUTTON -->
+                            <div id="eskimo-menu-toggle">菜单</div>
+                            <!-- MENU -->
+                            <nav id="eskimo-main-menu" class="menu-main-menu-container">
+                                <ul class="eskimo-menu-ul">
+                                    <li><a href="index.html">首页</a>
+                                    </li>
+                                    <li><a href="#">用户</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../pages/login/register.html">注册</a></li>
+                                            <li><a href="../pages/login/login.html">登录</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">博客</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">界面1</a></li>
+                                            <li><a href="single-post.html">热门文章</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="galleries.html">无聊图</a></li>\
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- SOCIAL MEDIA ICONS -->
+                        <div id="eskimo-social-cell" class="mt-auto w-100">
+                            <div id="eskimo-social-inner">
+                                <ul class="eskimo-social-icons">
+                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TOP ICONS -->
+                <ul class="eskimo-top-icons">
+                    <li id="eskimo-panel-icon">
+                        <a href="#eskimo-panel" class="eskimo-panel-open"><i class="fa fa-bars"></i></a>
+                    </li>
+                    <li id="eskimo-search-icon">
+                        <a id="eskimo-open-search" href="#"><i class="fa fa-search"></i></a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+
+                <!-- SLIDER -->
+                <div class="eskimo-carousel-container eskimo-bg-loader">
+                    <div id="eskimo-post-slider" class="eskimo-slider">
+                        <!-- SLIDE 1 -->
+                        <div class="lunbo">
+                            <a class="eskimo-slider-img" href="single-post.html"></a>
+                            <div class="clearfix"></div>
+                            <img src="../lib/uploads/2019/12/blog4-1-1200x600.jpg" alt="Ketchup Flavored Ice Cream!" />
+                            <div class="eskimo-slider-desc">
+                                <div class="eskimo-slider-desc-inner">
+                                    <h2 class="card-title">Ketchup Flavored Ice Cream!</h2>
+                                    <p>Mandaremus illum possumus ullamco e qui de nisi enim anim. Si nulla si nisi, veniam litteris sed excepteur ne ut amet deserunt tempor nam expetendis de enim mandaremus. Ita ea minim esse cillum ut eram arbitror ullamco. Tamen ad expetendis ab ipsum proident</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SLIDE 2 -->
+                        <div class="lunbo">
+                            <a class="eskimo-slider-img" href="single-post.html"></a>
+                            <div class="clearfix"></div>
+                            <img src="../lib/uploads/2019/12/blog1-1200x600.jpg" alt="宝可梦剑盾" />
+                            <div class="eskimo-slider-desc">
+                                <div class="eskimo-slider-desc-inner">
+                                    <h2 class="card-title">宝可梦剑盾</h2>
+                                    <p>《宝可梦 剑》与《宝可梦 盾》的冒险舞台为“伽勒尔地区”。 从恬静的田园到近代都市，从广阔的草原到险峻的雪山……伽勒尔地区地域广阔，地势多样。在这里，人类与宝可梦共同生活，互相合作发展工业。 主角将造访伽勒尔地区的各座“道馆”，以成为冠军为目标展开冒险。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SLIDE 3 -->
+                        <div class="lunbo">
+                            <a class="eskimo-slider-img" href="single-post.html"></a>
+                            <div class="clearfix"></div>
+                            <img src="../lib/uploads/2019/12/blog-1200x600.jpg" alt="15 Of The World's Best Carnivals" />
+                            <div class="eskimo-slider-desc">
+                                <div class="eskimo-slider-desc-inner">
+                                    <h2 class="card-title">15 Of The World's Best Carnivals</h2>
+                                    <p>Aliquip e duis. Se labore ullamco excepteur iis ullamco sint duis laboris amet sed ita occaecat de cernantur quo fore coniunctione voluptate enim senserit. Si ut nulla laboris, an eiusmod e incididunt. Non varias enim duis singulis, a quorum cupidatat. Voluptate summis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SLIDE 4 -->
+                        <div class="lunbo">
+                            <a class="eskimo-slider-img" href="single-post.html"></a>
+                            <div class="clearfix"></div>
+                            <img src="../lib/uploads/2019/12/blog19-1200x600.jpg" alt="5 Ways to a Healthy Lifestyle" />
+                            <div class="eskimo-slider-desc">
+                                <div class="eskimo-slider-desc-inner">
+                                    <h2 class="card-title">5 Ways to a Healthy Lifestyle</h2>
+                                    <p>Mandaremus veniam ab cupidatat exquisitaque, e quae laboris domesticarum, non sint mentitum fabulas de anim proident transferrem, ita aliqua imitarentur in in labore illum eram offendit, nisi fidelissimae possumus noster ullamco se eiusmod multos ex</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SLIDE 5 -->
+                        <div class="lunbo">
+                            <a class="eskimo-slider-img" href="single-post.html"></a>
+                            <div class="clearfix"></div>
+                            <img src="../lib/uploads/2019/12/blog5-1200x600.jpg" alt="Best Breakfast In The World" />
+                            <div class="eskimo-slider-desc">
+                                <div class="eskimo-slider-desc-inner">
+                                    <h2 class="card-title">Best Breakfast In The World</h2>
+                                    <p>Fabulas relinqueret aut quamquam. Lorem possumus pariatur ut quibusdam transferrem an tempor. E consequat nam senserit, aliquip tamen est commodo illustriora. An cillum sunt ut quamquam. Laboris culpa occaecat, quo fugiat dolore varias consequat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- BLOG POSTS -->
+                <!-- POST 1 -->
+                <div class="card card-horizontal">
+                    <div class="card-body">
+                        <div class="card-horizontal-left">
+                            <div class="card-category">
+                                <a>Food &amp; Drink</a> </div>
+                            <h3 class="card-title"><a href="single-post.html">Best and Worst Summer Foods</a></h3>
+                            <div class="card-excerpt" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
+                                <p>Admodum comprehenderit id non cillum anim de appellat, ubi tamen singulis sempiternum, occaecat sunt appellat appellat ex varias an in quem laborum an si ita quid multos irure do excepteur culpa quamquam. Nam aliqua iudicem aliquip o sunt cupidatat...</p>..
+                            </div>
+                            <div class="card-horizontal-meta">
+                                <div class="eskimo-author-meta">
+                                    By <a class="author-meta" href="author.html">Egemenerd</a>
+                                </div>
+                                <div class="eskimo-date-meta">
+                                    <a href="single-post.html">May 22, 2018</a>
+                                </div>
+                                <div class="eskimo-reading-meta">3 min read</div>
+                            </div>
+                        </div>
+                        <div class="card-horizontal-right" data-img="../lib/uploads/2019/12/blog18-1024x682.jpg">
+                            <a class="card-featured-img" href="single-post.html"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- POST 2 -->
+                <div class="card card-horizontal">
+                    <div class="card-body">
+                        <div class="card-horizontal-left">
+                            <div class="card-category">
+                                <a>Lifestyle</a> </div>
+                            <h3 class="card-title"><a href="single-post.html">What Is Perfect Training?</a></h3>
+                            <div class="card-excerpt" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
+                                <p>Non in familiaritatem, esse mentitum deserunt. Sunt excepteur quamquam. Enim ullamco consequat, nisi se singulis non fugiat. Nulla laboris tractavissent, tempor hic illum vidisse. Tempor qui noster incurreret, officia in ingeniis ubi in sunt arbitror ubi...</p>
+                            </div>
+                            <div class="card-horizontal-meta">
+                                <div class="eskimo-author-meta">
+                                    By <a class="author-meta" href="author.html">Egemenerd</a>
+                                </div>
+                                <div class="eskimo-date-meta">
+                                    <a href="single-post.html">May 21, 2018</a>
+                                </div>
+                                <div class="eskimo-reading-meta">2 min read</div>
+                            </div>
+                        </div>
+                        <div class="card-horizontal-right" data-img="../lib/uploads/2019/12/blog7-1024x696.jpg">
+                            <a class="card-featured-img" href="single-post.html"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- POST 3 -->
+                <div class="card card-horizontal">
+                    <div class="card-body">
+                        <div class="card-horizontal-left">
+                            <div class="card-category">
+                                <a>Technology</a> </div>
+                            <h3 class="card-title"><a href="single-post.html">The Best Cameras For Beginners</a></h3>
+                            <div class="card-excerpt">
+                                <p>Pariatur ab enim ita in ne philosophari, cillum incididunt voluptate hic aut quorum vidisse distinguantur, quis possumus cohaerescant, mentitum eruditionem iis aliquip, ubi quem possumus quamquam ea o eiusmod graviterque culpa expetendis ingeniis...</p>
+                            </div>
+                            <div class="card-horizontal-meta">
+                                <div class="eskimo-author-meta">
+                                    By <a class="author-meta" href="author.html">Egemenerd</a>
+                                </div>
+                                <div class="eskimo-date-meta">
+                                    <a href="single-post.html">May 20, 2018</a>
+                                </div>
+                                <div class="eskimo-reading-meta">2 min read</div>
+                            </div>
+                        </div>
+                        <div class="card-horizontal-right" data-img="../lib/uploads/2019/12/blog17-1024x722.jpg">
+                            <a class="card-featured-img" href="single-post.html"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- POST 4 -->
+                <div class="card card-horizontal">
+                    <div class="card-body">
+                        <div class="card-horizontal-left">
+                            <div class="card-category">
+                                <a>TV &amp; Movies</a> </div>
+                            <h3 class="card-title"><a href="single-post.html">The 20 Creepiest Clowns in Movies</a></h3>
+                            <div class="card-excerpt">
+                                <p>Iudicem fidelissimae non appellat aut senserit tamen ad senserit adipisicing, commodo ubi expetendis quo vidisse illum mentitum e ea fore summis dolore quibusdam. Anim litteris nam imitarentur, offendit culpa cillum ingeniis enim, sed varias senserit nostrud vidisse...</p>
+                            </div>
+                            <div class="card-horizontal-meta">
+                                <div class="eskimo-author-meta">
+                                    By <a class="author-meta" href="author.html">Egemenerd</a>
+                                </div>
+                                <div class="eskimo-date-meta">
+                                    <a href="single-post.html">May 20, 2018</a>
+                                </div>
+                                <div class="eskimo-reading-meta">3 min read</div>
+                            </div>
+                        </div>
+                        <div class="card-horizontal-right" data-img="../lib/uploads/2019/12/blog12-1024x663.jpg">
+                            <a class="card-featured-img" href="single-post.html"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- POST 5 -->
+                <div class="card card-horizontal">
+                    <div class="card-body">
+                        <div class="card-horizontal-left">
+                            <div class="card-category">
+                                <a>Travel</a> </div>
+                            <h3 class="card-title"><a href="single-post.html">The Best Places To Travel</a></h3>
+                            <div class="card-excerpt " >
+                                <p>Quo aute efflorescere, ita fugiat aliquip. Lorem ad litteris, anim cupidatat ut concursionibus e quae proident hic litteris, de multos adipisicing. Fugiat laboris nam exercitation, arbitror an senserit ubi aut quis lorem id cernantur, ubi minim iudicem nostrud. Minim fidelissimae...</p>
+                            </div>
+                            <div class="card-horizontal-meta" >
+                                <div class="eskimo-author-meta">
+                                    By <a class="author-meta" href="author.html">Egemenerd</a>
+                                </div>
+                                <div class="eskimo-date-meta">
+                                    <a href="single-post.html">May 20, 2018</a>
+                                </div>
+                                <div class="eskimo-reading-meta">4 min read</div>
+                            </div>
+                        </div>
+                        <div class="card-horizontal-right" data-img="../lib/uploads/2019/12/blog11-1024x655.jpg">
+                            <a class="card-featured-img" href="single-post.html"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- VIEW ALL BUTTON -->
+                <div class="eskimo-view-more">
+                    <a class="btn btn-default" href="blog.html">VIEW ALL POSTS</a>
+                </div>
+                
+
+
+
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer id="eskimo-footer">
+            <div class="container">
+
+                <!-- CREDITS -->
+                <div class="eskimo-footer-credits">
+                    <p>
+                        Made by <a href="https://github.com/Neptune1228" target="_blank">Neptune </a> & <a href="https://github.com/Xpectuer" target="_blank">Alex</a>
+                        <!--sitting URL-->
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- GO TO TOP BUTTON -->
+    <a id="eskimo-gototop" href="#"><i class="fa fa-chevron-up"></i></a>
+    <!-- SLIDE PANEL OVERLAY -->
+    <div id="eskimo-overlay"></div>
+    <!-- SLIDE PANEL -->
+    <div id="eskimo-panels">
+        <aside id="eskimo-panel" class="eskimo-panel">
+            <div class="eskimo-panel-inner">
+                <!-- CLOSE SLIDE PANEL BUTTON -->
+                <a href="#" class="eskimo-panel-close"><i class="fa fa-times"></i></a>
+                <!-- AUTHOR BOX -->
+                <div class="eskimo-author-box eskimo-widget">
+                    <div class="eskimo-author-img">
+                        <img src="../lib/uploads/2019/12/img0.jpg" alt="USER" />
+                    </div>
+                    <h3><span>user</span></h3>
+                    <p class="eskimo-author-subtitle"></p>
+                    <p class="eskimo-author-description">这家伙很懒，还没有写自我介绍哦</p>
+                    <div class="eskimo-author-box-btn">
+                        <a class="btn btn-default" href="about.html">进入个人空间</a>
+                    </div>
+                </div>
+                <!-- RECENT POSTS -->
+                <div class="eskimo-recent-entries eskimo-widget">
+                    <h5 class="eskimo-title-with-border"><span>最近发言</span></h5>
+                    <ul>
+                        <li>
+                            <a href="single-post.html">杰哥不要啊！</a>
+                            <span class="post-date">Dec 28, 2019</span>
+                        </li>
+                        <li>
+                            <a href="single-post.html">最近有在健身哦</a>
+                            <span class="post-date">Dec 27, 2018</span>
+                        </li>
+                        <li>
+                            <a href="single-post.html">15 Of The World's Best Carnivals</a>
+                            <span class="post-date">Dec 25, 2018</span>
+                        </li>
+                    </ul>
+                </div>
+
+<!--                &lt;!&ndash; TAGS &ndash;&gt;-->
+<!--                <div class="eskimo-widget">-->
+<!--                    <h5 class="eskimo-title-with-border"><span>Tags</span></h5>-->
+<!--                    <div class="eskimo-tag-cloud">-->
+<!--                        <a href="category.html">aute<span>7</span></a>-->
+<!--                        <a href="category.html">enim<span>7</span></a>-->
+<!--                        <a href="category.html">commodo<span>7</span></a>-->
+<!--                        <a href="category.html">voluptatibus<span>7</span></a>-->
+<!--                        <a href="category.html">culpa<span>7</span></a>-->
+<!--                        <a href="category.html">offendit<span>7</span></a>-->
+<!--                        <a href="category.html">magna<span>7</span></a>-->
+<!--                        <a href="category.html">quorum<span>7</span></a>-->
+<!--                        <a href="category.html">mandaremus<span>7</span></a>-->
+<!--                        <a href="category.html">ingeniis<span>7</span></a>-->
+<!--                        <a href="category.html">tempor<span>7</span></a>-->
+<!--                        <a href="category.html">summis<span>7</span></a>-->
+<!--                        <a href="category.html">consequat<span>6</span></a>-->
+<!--                        <a href="category.html">iudicem<span>6</span></a>-->
+<!--                        <a href="category.html">expetendis<span>6</span></a>-->
+<!--                        <a href="category.html">deserunt<span>6</span></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </aside>
+    </div>
+    <!-- FULLSCREEN SEARCH -->
+    <div id="eskimo-fullscreen-search">
+        <div id="eskimo-fullscreen-search-content">
+            <a href="#" id="eskimo-close-search"><i class="fa fa-times"></i></a>
+            <form role="search" method="get" action="search.html" class="eskimo-lg-form">
+                <div class="input-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Enter a keyword..." name="s" />
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- JS FILES -->
+    <script src="../lib/js/jquery/jquery.min.js"></script>
+    <script src="../lib/js/bootstrap.min.js"></script>
+    <script src="../lib/js/salvattore.min.js"></script>
+    <script src="../lib/js/panel.js"></script>
+    <script src="../lib/js/reading-position-indicator.js"></script>
+    <script src="../lib/js/rrssb.min.js"></script>
+    <script src="../lib/js/featherlight.js"></script>
+    <script src="../lib/js/custom.js"></script>
+    <script src="../lib/js/passageList.js"></script>
+    <!-- POST SLIDER -->
+    <script>
+        (function($) {
+            "use strict";
+            $(document).ready(function() {
+                $('#eskimo-post-slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    slidesToScroll: 1,
+                    adaptiveHeight: true,
+                    slidesToShow: 1,
+                    arrows: true,
+                    dots: false,
+                    fade: true
+                });
+            });
+            $(window).on('load', function() {
+                $('#eskimo-post-slider').css('opacity', '1');
+                $('#eskimo-post-slider').parent().removeClass('eskimo-bg-loader');
+            });
+        })(jQuery);
+    </script>
+    <script>
+        let index =0;
+        //3秒轮播一次
+        let timer = setInterval(function(){
+            index = (index == 4) ? 0 : index + 1;
+            //某个div显示，其他的隐藏
+            $(".lunbo").hide().eq(index).show();
+        }, 3000);
+    </script>
+
+</body>
+
+</html>
